@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;
+}
+
+body {
+    padding: 5% 0%;
+}
+
+#container {
+    text-align: center;
+}
+
+#container button {
+    font-size: 5rem;
+    background: none;
+    margin: 20px 15px;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+
+#container button:hover {
+    transform: scale(1.4)
+}
+
+.score-container {
+    text-align: center;
+    font-size: 4rem;
+    background: none;
+    display: flex;
+}
+
+span{
+    background: none;
+    text-align: center;
+}
+
+.score-container{
+    background: none;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+div.score {
+    background: none;
+    height: 20px;
+    width:  200px;
+}
+
+div {
+    background: none ;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    background: none;
+    font-size: 20px;
+}
+
+.restartcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+
+#restart {
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background: cornsilk;
+    transition: 150ms;
+    margin-top: 40px;
+}
+
+#restart:hover {
+    background: rgb(238, 232, 209);
+}
